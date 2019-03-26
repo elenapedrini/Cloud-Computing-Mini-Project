@@ -20,5 +20,5 @@ The mini project is mainly focused on the following aspects of Cloud application
 
 Domain
 ------
-(tfl)
+The application uses the Tfl RESTful API to provide some information about the current status of tube lines, the weather forecast for the current and the following day, the details of the journey arbitrarily defined
 
