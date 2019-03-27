@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mini-project-app
+spec:
+  selector:
+    matchLabels:
+      app: mini-project-app
+      tier: frontend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: mini-project-app
+        tier: frontend
+    spec:
+      containers:
+      - name: mini-project-app
+        image: "gcr.io/durable-verve-234815/mini-project-app:v2"
