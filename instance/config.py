@@ -1,4 +1,0 @@
-
-DEBUG = True
-APP_ID = 'ace7f1a5'
-APP_KEY = '421fd876b82b2a51faa56392390f2317'
