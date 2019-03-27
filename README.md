@@ -131,3 +131,4 @@ kubectl create -f load_balancer.yml
  There are many areas in which the application can be improved. For example:
  - the front-end can be transformed into a more user-friendly interface;
  - the matching between the external parameters given interactively by the user about the tube stations names and the actual stations names needs to be carried on in refining wildcards and pattern-matching conditions, for example by implementing autofill suggestions which allow the users to have a better experience while using the app, without asking them to type long names in the url (e.g. King's Cross St. Pancras).
+The use of the persistent database is still in testing and work in progress, given some issues making the connection between Flask and Cassandra work.  
